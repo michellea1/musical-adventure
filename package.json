@@ -1,0 +1,43 @@
+{
+  "name": "wantable_coding_adventure",
+  "version": "1.0.0",
+  "description": "Coding challenge for front end position",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "npm run watch & webpack-dev-server --open",
+    "build": "webpack",
+    "test": "jest"
+  },
+  "author": "Michelle Allred",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-regular-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@reach/router": "^1.3.3",
+    "@types/reach__router": "^1.3.5",
+    "last-fm": "^5.2.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.9.0",
+    "@testing-library/react": "^10.0.5",
+    "@testing-library/user-event": "^10.4.1",
+    "@types/node": "^14.0.5",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "css-loader": "^3.5.3",
+    "jest": "^26.0.1",
+    "jest-dom": "^4.0.0",
+    "react-test-render": "^1.1.2",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.google.com/css?/family=Playfair+Display:wght@500;800');
+
+body {
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 0;
+    font-family: 'Playfair Display';
+    font-weight: 800;
+}
+
+button {
+    padding: 10px 25px;
+    background-color: #f58a73;
+    color: #fff;
+    font-size: 1rem;
+    border: solid 2px #f58a73;
+    border-radius: 65px;
+    text-transform: uppercase;
+}
+
+button:active, button:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+hr {
+    border: solid 1px #000;
+}
+
+.nav {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    padding: 25px 55px;
+    text-align: left;
+}
+
+.nav-link {
+    padding-right: 55px;
+}
+
+.home {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10vw;
+}
+
+.home-btn {
+    font-size: 1.5rem;
+    margin: 60px;
+    padding: 20px 45px;
+}
+
+.artist-display {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artist-list {
+    width: 30%;
+    padding: 0 20px 20px;
+}
+
+.fav-hr {
+    margin-bottom: 25px;
+}
+
+.artist-form {
+    margin: 30px auto;
+}
+
+.artist-input {
+    font-size: 1rem;
+    padding: 10px;
+    margin-right: 20px;
+    border: solid 2px #f58a73;
+    border-radius: 25px;
+}
+
+.artist-input:focus {
+    outline: none;
+}
+
+.artist-list-item {
+    width: 90%;
+    margin: 0 auto;
+    color: #000;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 1.2rem;
+    background-color: #fbf6e9;
+    border-radius: 10px;
+    padding: 10px 25px;
+    display: flex;
+}
+
+.artist-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fav-btn {
+    color: #f58a73;
+    padding-right: 25px;
+}
+
+.artist-bio {
+    width: 70%;
+    padding: 0 20px 20px;
+    text-align: left;
+}
+
+.artist-bio > h2 {
+    text-align: center;
+}
+
+.discography {
+    column-count: 2;
+}
