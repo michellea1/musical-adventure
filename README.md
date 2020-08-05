@@ -1,6 +1,15 @@
-# musical-adventure
+# Musical Adventure
+
 Musical coding adventure!
 
-Node version 8.15.1 or higher should be used to run this application
+## Install instructions
 
-npm start can be used to start the application
+- Clone this repo
+- Ensure you have Node version 8.15.1 or higher
+
+###### Frontend Setup
+```shell script
+npm start
+```
+
+
