@@ -1,6 +1,6 @@
 # Musical Adventure
 
-Musical coding adventure!
+Experimental code project using React.js and Typescript that allows users to build a library of favorite musical artists pulled from the LastFM API
 
 ## Install instructions
 
